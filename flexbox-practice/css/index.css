@@ -1,0 +1,34 @@
+body {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.mainContainer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    text-align: center;
+}
+
+.leftSide {
+    flex-basis: 25%;
+}
+
+.rightSide{
+    flex-direction: column;
+}
+.rightTop {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rightSide {
+    flex-basis: 75%;
+}
+
+.rightItem {
+    flex: 1;
+}
