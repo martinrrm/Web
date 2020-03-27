@@ -7,10 +7,19 @@
         git init
     </li>
     <li>
-        git add file.ext
+        git add .
     </li>
     <li>
-        git commit -m "Message"
+        git commit -m "Init"
+    </li>
+    <li>
+        touch README.md
+    </li>
+    <li>
+        git add .
+    </li>
+    <li>
+        git commit -m "Readme"
     </li>
     <li>
         git remote add origin url
